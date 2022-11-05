@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500&display=swap');
+ 
+.create__text{
+    position: relative;
+    left: 568.5px;
+} 
+
+.create{
+    background: #fff;
+}
+
+.container{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.create__zone{
+    position: relative;
+    padding: 64px 0;
+
+}
+
+.logIn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    gap: 2px;
+} 
+
+.logIn__link{
+    position: relative;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+    text-decoration: none;
+    left: 595px;
+    padding-top: 10px;
+
+} 
+
+.logIn__link span{
+    text-decoration: underline;
+    color: #111111;
+    
+}
+
+
+.create__box{
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+
+.form__zone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    background: #fff;
+    border-radius: 32px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+}
+
+.form__label{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    gap: 7px;
+    width: 100%;
+}
+
+input{
+    display: block;
+    border: 1px solid #666666;
+    border-radius: 12px ;
+    width: 100%;
+    padding: 15px 24px;
+} 
+
+.form__box{
+    width: 100%;
+}
+
+
+.form__label span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.password__info{
+    font-size: 11px;
+    line-height: 21px;
+    color:rgba(102, 102, 102, 0.3) ;
+    padding-left: 16px ;
+} 
+
+.form__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    background: #111111;
+    opacity: 0.25;
+    border-radius: 40px;
+    border: rgb(105, 102, 102);
+} 
+
+.form__info{
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 12px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+} 
+.form__link{
+    color: #111111;
+ }
+
+
+
+.create__circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #c4c4c4;
+    border-radius: 100%;
+    margin: 0 auto;
+    top: -90px;
+    left: -600px;
+}
+
+.continue{
+    width: 100%;
+}
+
+.continue__text{
+    position: relative;
+    width: 193px;
+height: 33px;
+padding-top: 72px;
+padding-bottom: 40px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+color: #666666;
+
+}
+
+
+
+.facebook__btn{
+    position: relative;
+    left: 0px;
+    width: 156px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    
+}
+
+.google__btn{
+    top: auto;
+    left: 16px;
+    position: relative;
+    padding-left: 30px;
+    box-sizing: border-box;
+    width: 156px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.apple__btn{
+    position: relative;
+    left: 16px;
+    top: auto;
+    box-sizing: border-box;
+    width: 156px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    margin-left: 16px;
+    
+}
+
+.facebook__text{
+   position: relative;
+   top: -28px;
+   left: 15px;
+    width: 98px;
+    left: 40px;
+    margin-top: 0;
+    height: 30px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    color: #333333;
+}
+
+.google__text{
+    position: relative;
+    width: 75px;
+    height: 30px;
+    left: 25px;
+    top: -28px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+    
+}
+
+.apple__text{
+    position: relative;
+    width: 60px;
+height: 30px;
+top: -28px;
+left: 60px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+
+}
+
+.continue__icon__facebook{
+    position: relative;
+    margin-left: -83px;
+    top: 5px;
+    left: -15px;
+    width: 32px;
+    height: 32px;
+
+}
+.continue__icon__google{
+    position: relative;
+    top:5px;
+    left: -70px;
+    width: 32px;
+    height: 32px;
+}   
+.continue__icon__apple{
+    position: relative;
+    left: -50px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+
+}
